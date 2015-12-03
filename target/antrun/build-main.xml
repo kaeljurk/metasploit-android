@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <unzip src="/opt/metasploit-javapayload/androidpayload/app/target/Metasploit-AndroidPayload.apk" dest="/opt/metasploit-javapayload/androidpayload/app/../../../metasploit-framework/data/android/apk">
+    <patternset>
+      <exclude name="META-INF/**"/>
+    </patternset>
+  </unzip>
+</target>
+</project>
